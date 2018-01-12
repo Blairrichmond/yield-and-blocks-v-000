@@ -15,4 +15,3 @@ def hello_t(array)
 hello_t(["Tim", "Tom", "Jim"]) do |name|
   puts name
   end
-end
