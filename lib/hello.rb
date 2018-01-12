@@ -1,6 +1,6 @@
 def hello_t(array)
    i = 0
-  		  
+
  if block_given?
    while i < array.length
        yield array[i]
@@ -11,8 +11,8 @@ def hello_t(array)
    end
     array
   end		  end
-  		  
+
 hello_t(["Tim", "Tom", "Jim"]) do |name|
   puts name
+  end
 end
- end
